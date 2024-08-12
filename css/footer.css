@@ -1,0 +1,36 @@
+footer{
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 4%;
+}
+
+.col-right, .col-mid, .col-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-mid{
+    flex-direction: column;
+}
+
+.icono-social{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+
+.logoARCube{
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+}
+
+@media screen and (max-width: 750px){
+    footer{
+        flex-direction:column;
+        align-items: center;
+    }    
+}

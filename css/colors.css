@@ -1,0 +1,15 @@
+:root{
+    --color-primary-light:#C4E1F2;
+    --color-primary: #54D9F8;
+    --color-primary-alfa: rgba(84, 217, 248,0.5);
+    --color-primary-dark: #00C4F3;
+
+    --color-secondary-light: #FFFFFF;
+    --color-secondary: #706F73;
+    --color-secondary-dark: #0D0D0D;
+
+    --color-gray-light: lightgray;    
+    --color-gray: #706F73;
+    --color-gray-alfa: rgba(112, 111, 115,0.5); 
+    --color-gray-dark: #000000;
+}

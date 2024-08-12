@@ -1,0 +1,22 @@
+.navbar{
+    background-color: var(--color-secondary);
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a{
+    color: var(--color-secondary-light);
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: var(--color-secondary-dark);
+}
+
+@media screen and (max-width: 600px) {
+    .navbar{
+        flex-direction: column;
+    }    
+}

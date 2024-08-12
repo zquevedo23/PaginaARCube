@@ -1,0 +1,13 @@
+#imagenes-contenedor{
+    background-color:var(--color-secondary-light);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 3% 0;
+}
+
+#imagenes-contenedor img{
+    width: 200px;
+    height: auto;
+    margin: 5px;
+}

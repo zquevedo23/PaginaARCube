@@ -1,0 +1,21 @@
+header{
+    background-color: var(--color-primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#logoCabecera{
+    width: 150px;
+    height: auto;
+
+}
+
+#tituloPagina{
+    font-size: 3em;
+    font-family: "Berkshire Swash", serif;
+    font-weight: 400;
+    font-style: normal;
+}

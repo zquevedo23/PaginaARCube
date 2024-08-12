@@ -1,0 +1,32 @@
+.noticias{
+    /* background-color: var(--color-primary-light); */
+    background: url(../imagenes/noticia-negocio.jpeg);
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+    /* height: auto; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3% 0;
+}
+
+.noticias img{
+    width: 300px;
+    height: auto;
+    margin: 5px;
+}
+
+.noticias h2{
+    color: var(--color-secondary-light);
+    padding: 1%;
+    background-color: var(--color-primary-alfa);
+    border-radius: .6em;
+}
+
+.noticias p{
+    color: var(--color-secondary-light);
+    padding: 2%;
+    background-color: var(--color-gray-alfa);
+    border-radius: .6em;
+}
